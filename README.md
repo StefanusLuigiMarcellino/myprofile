@@ -16,7 +16,7 @@ I also use AOS to give a little bit animation in every section.
 ![Skills](https://github.com/StefanusLuigiMarcellino/myprofile/blob/main/public/img/skillssection.png?raw=true)
 
 # Projects Section
-![Projects](https://github.com/StefanusLuigiMarcellino/myprofile/blob/main/public/img/projectsssection.png?raw=true)
+![Projects](https://github.com/StefanusLuigiMarcellino/myprofile/blob/main/public/img/projectssection.png?raw=true)
 
 # Education Section
 ![Edu 1](https://github.com/StefanusLuigiMarcellino/myprofile/blob/main/public/img/edusection1.png?raw=true)\
