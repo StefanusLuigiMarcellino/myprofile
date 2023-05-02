@@ -181,7 +181,7 @@ nav{
     margin-top: 3vw;
 }
 
-.gitlink{
+.link{
     text-decoration: none;
 }
 
@@ -190,7 +190,7 @@ nav{
 }
 
 #education .row{
-    height: 30vw; 
+    height: 30vw;
     margin-bottom: 10vw;
     position: relative;
 }
@@ -240,7 +240,7 @@ nav{
     display: flex;
     justify-content: space-evenly;
     padding: 0.5vw;
-    
+
 }
 
 .foot{

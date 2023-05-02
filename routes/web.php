@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ProjectController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('myprofile');
-});
+Route::get('/', [ProjectController::class, 'listProjects']);
+
+Route::get('/detail/{id}', [ProjectController::class, 'detailProjects']);

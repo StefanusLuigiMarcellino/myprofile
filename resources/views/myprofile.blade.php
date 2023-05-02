@@ -10,27 +10,11 @@
     <title>Luigi's Profile</title>
 </head>
 <body>
-  
-  {{-- Navbar --}}
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark shadow-sm">
-    <div class="container">
-      <a class="navbar-brand" href="#profile">Luigi Profile</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav ms-auto ">
-          <a class="nav-link me-3" aria-current="page" href="#profile">Profile</a>
-          <a class="nav-link me-3" href="#about">About</a>
-          <a class="nav-link me-3" href="#skills">Skills</a>
-          <a class="nav-link me-3" href="#projects">Projects</a>
-          <a class="nav-link me-3" href="#education">Education</a>
-        </div>
-      </div>
-    </div>
-  </nav>
 
-  
+  {{-- Navbar --}}
+  @include('navbar')
+
+
   {{-- Profile --}}
   <section id="profile">
     <img class="crystal" src="img/crystal.png" alt="">
@@ -99,7 +83,7 @@
         </div>
       </div>
     </div>
-    
+
     <div class="banner-laptop">
       <div class="textcontainer"></div>
       <div class="container text-center">
@@ -153,26 +137,25 @@
     </div>
     <div class="container">
       <div class="row text-center justify-content-center" style="margin-bottom: 3vw">
-        <div class="col-md-5">
+        @foreach ($listproject as $projects)
+        <div class="col-md-5 mb-5">
           <div class="card shadow"  data-aos="fade-right" data-aos-duration="2000">
-            <img id="music" src="img/music.png" class="card-img-top" alt="">
-            <div class="card-body">
-              <h5 class="card-title">Muree</h5>
-              <p class="card-text">This project is about Artificial Intelligence song recommendation system with content-based filtering based on genre and release date.</p>
-              <a href="https://github.com/StefanusLuigiMarcellino/muree" class="gitlink">Click here to look more...</a>
+            <img id="music" src="img/{{ $projects["picture"] }}" class="card-img-top" style="height: 24vw" alt="">
+            <div class="card-body" style="
+            @if($projects["complexity"] == 'Low')
+                background-color: lime;
+            @elseif($projects["complexity"] == 'Medium')
+                background-color: cyan;
+            @elseif($projects["complexity"] == 'High')
+                background-color: gold
+            @endif">
+              <h5 class="card-title">{{ $projects["name"] }}</h5>
+              <p class="card-text">{{ $projects["desc"] }}</p>
+              <a href="detail/{{ $projects["id"] }}" class="link">Click here to look more...</a>
             </div>
           </div>
         </div>
-        <div class="col-md-5">
-          <div class="card shadow" data-aos="fade-left" data-aos-duration="2000">
-            <img id="library" src="img/library.jpg" class="card-img-top" alt="">
-            <div class="card-body">
-              <h5 class="card-title">B-Lib</h5>
-              <p class="card-text">This project is about library system, like borrowing, returning, extending books in BCA Learning Institute Training Lounge and Library.</p>
-              <a href="https://github.com/StefanusLuigiMarcellino/b-lib" class="gitlink">Click here to look more...</a>
-            </div>
-          </div>
-        </div>
+        @endforeach
       </div>
     </div>
   </section>
