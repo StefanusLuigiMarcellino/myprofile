@@ -16,7 +16,18 @@ I also use AOS to give a little bit animation in every section.
 ![Skills](https://github.com/StefanusLuigiMarcellino/myprofile/blob/main/public/img/skillssection.png?raw=true)
 
 # Projects Section
-![Projects](https://github.com/StefanusLuigiMarcellino/myprofile/blob/main/public/img/projectssection.png?raw=true)
+The card's background color is based on the project complexity.\
+Comlexity Low = Color Lime\
+Comlexity Medium = Color Cyan\
+Comlexity High = Color Gold
+![Projects](https://github.com/StefanusLuigiMarcellino/myprofile/blob/main/public/img/projectssection1.png?raw=true)
+![Projects](https://github.com/StefanusLuigiMarcellino/myprofile/blob/main/public/img/projectssection2.png?raw=true)
+
+# Details Page
+![Details](https://github.com/StefanusLuigiMarcellino/myprofile/blob/main/public/img/detail1.png?raw=true)
+![Details](https://github.com/StefanusLuigiMarcellino/myprofile/blob/main/public/img/detail2.png?raw=true)
+![Details](https://github.com/StefanusLuigiMarcellino/myprofile/blob/main/public/img/detail3.png?raw=true)
+![Details](https://github.com/StefanusLuigiMarcellino/myprofile/blob/main/public/img/detail4.png?raw=true)
 
 # Education Section
 ![Edu 1](https://github.com/StefanusLuigiMarcellino/myprofile/blob/main/public/img/edusection1.png?raw=true)\
