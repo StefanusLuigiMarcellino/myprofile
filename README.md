@@ -17,9 +17,9 @@ I also use AOS to give a little bit animation in every section.
 
 # Projects Section
 The card's background color is based on the project complexity.\
-Comlexity Low = Color Lime\
-Comlexity Medium = Color Cyan\
-Comlexity High = Color Gold
+Complexity Low = Color Lime\
+Complexity Medium = Color Cyan\
+Complexity High = Color Gold
 ![Projects](https://github.com/StefanusLuigiMarcellino/myprofile/blob/main/public/img/projectssection1.png?raw=true)
 ![Projects](https://github.com/StefanusLuigiMarcellino/myprofile/blob/main/public/img/projectssection2.png?raw=true)
 
@@ -34,3 +34,9 @@ Comlexity High = Color Gold
 ![Edu 2](https://github.com/StefanusLuigiMarcellino/myprofile/blob/main/public/img/edusection2.png?raw=true)\
 ![Edu 3](https://github.com/StefanusLuigiMarcellino/myprofile/blob/main/public/img/edusection3.png?raw=true)\
 ![Edu 3](https://github.com/StefanusLuigiMarcellino/myprofile/blob/main/public/img/edusection4.png?raw=true)
+
+# Video Website Overview
+
+https://user-images.githubusercontent.com/129078004/235700901-5c8313c2-29e3-4ecc-8956-4ef75021e628.mp4
+
+
